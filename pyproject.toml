@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-romanodes"
+description = "ComfyUI nodes for moving-subject video inpainting: stable crop and stitch plus tracker-dropout mask repair."
+version = "1.0.0"
+license = { text = "MIT" }
+
+[project.urls]
+Repository = "https://github.com/Ubiquitous35/ComfyUI-RomanoNodes"
+
+[tool.comfy]
+PublisherId = "romano"
+DisplayName = "ComfyUI RomanoNodes"
+Icon = ""
