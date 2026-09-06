@@ -1,10 +1,12 @@
 # ComfyUI RomanoNodes
 
-ComfyUI nodes for video inpainting on a moving subject: Video Inpaint Crop,
+ComfyUI nodes for inpaint crop-and-stitch on images **and** video — including
+the hard case no other pack handles: a moving subject. Video Inpaint Crop,
 Video Inpaint Stitch, and Mask Hold Last.
 
-Crop a **moving** subject out of a video for inpainting, render it at full
-resolution, and paste it back.
+Crop a masked subject out of a still image or video for inpainting, render it
+at full resolution, and paste it back. A single image is just a one-frame
+clip — the same two nodes do both.
 
 ## Why
 
